@@ -14,7 +14,12 @@ import java.util.function.Function;
 
 public class ModItems {
 
+    //item initializations.
+
+    //ores
     public static final Item SUNORIUM = registerItem("sunorium", Item::new, new Item.Settings());
+
+    //block item initializations
 
     /*
     * HELPER METHODS
@@ -30,9 +35,7 @@ public class ModItems {
     public static void registerModItems() {
         MysticalDimensions.LOGGER.info("Registering items for " + MysticalDimensions.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(SUNORIUM);
-        });
+
 
     }
 }
