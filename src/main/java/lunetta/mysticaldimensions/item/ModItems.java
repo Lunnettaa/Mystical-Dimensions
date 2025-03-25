@@ -30,9 +30,7 @@ public class ModItems {
     public static void registerModItems() {
         MysticalDimensions.LOGGER.info("Registering items for " + MysticalDimensions.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(SUNORIUM);
-        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(SUNORIUM));
 
     }
 }
