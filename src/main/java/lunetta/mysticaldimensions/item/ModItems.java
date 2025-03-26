@@ -14,7 +14,17 @@ import java.util.function.Function;
 
 public class ModItems {
 
+    //item initializations.
+    //ores
     public static final Item SUNORIUM = registerItem("sunorium", Item::new, new Item.Settings());
+    public static final Item EROSINE = registerItem("erosine", Item::new, new Item.Settings());
+    public static final Item JADE = registerItem("jade", Item::new, new Item.Settings());
+
+
+    //items
+    public static final Item CRYSTANTITE_RING = registerItem("crystantite_ring", Item::new, new Item.Settings());
+    public static final Item CORRALED_CRYSTANTITE_RING = registerItem("corraled_crystantite_ring", Item::new, new Item.Settings());
+    //block item initializations
 
     /*
     * HELPER METHODS
@@ -29,8 +39,5 @@ public class ModItems {
     }
     public static void registerModItems() {
         MysticalDimensions.LOGGER.info("Registering items for " + MysticalDimensions.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(SUNORIUM));
-
     }
 }
