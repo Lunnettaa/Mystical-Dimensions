@@ -16,6 +16,10 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.mystical-dimensions.mystical_dimensions_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SUNORIUM);
+                        entries.add(ModItems.EROSINE);
+                        entries.add(ModItems.JADE);
+                        entries.add(ModItems.CRYSTANTITE_RING);
+                        entries.add(ModItems.CORRALED_CRYSTANTITE_RING);
                     }).build());
     public static final ItemGroup MYSTICAL_DIMENSIONS_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MysticalDimensions.MOD_ID, "mystical_dimensions_blocks"),
