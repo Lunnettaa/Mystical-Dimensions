@@ -1,6 +1,7 @@
 package lunetta.mysticaldimensions.item;
 
 import lunetta.mysticaldimensions.MysticalDimensions;
+import lunetta.mysticaldimensions.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -23,10 +24,11 @@ public class ModItemGroups {
                     }).build());
     public static final ItemGroup MYSTICAL_DIMENSIONS_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MysticalDimensions.MOD_ID, "mystical_dimensions_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SUNORIUM))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.SUNORIUM_ORE))
                     .displayName(Text.translatable("itemgroup.mystical-dimensions.mystical_dimensions_blocks"))
                     .entries((displayContext, entries) -> {
-
+                        entries.add(ModBlocks.SUNORIUM_ORE);
+                        entries.add(ModBlocks.JADE_ORE);
                     }).build());
 
 
