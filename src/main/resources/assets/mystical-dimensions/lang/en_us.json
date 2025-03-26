@@ -6,6 +6,11 @@
   "item.mystical-dimensions.crystantite_ring": "Crystantite Ring",
   "item.mystical-dimensions.corraled_crystantite_ring": "Corraled Crystantite Ring",
 
+  "block.mystical-dimensions.sunorium_ore": "Sunorium Ore",
+  "block.mystical-dimensions.jade_ore":  "Jade Ore",
+
+  "item.mystical-dimensions.sunorium_ore": "Sunorium Ore",
+
   "itemgroup.mystical-dimensions.mystical_dimensions_items": "Mystical Dimensions Items",
   "itemgroup.mystical-dimensions.mystical_dimensions_blocks": "Mystical Dimensions Blocks"
 }
