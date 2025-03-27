@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sunorium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mystical-dimensions:sunorium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sunorium_from_smelting_sunorium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sunorium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sunorium_from_smelting_sunorium_ore"
+    ]
+  }
+}

@@ -21,6 +21,9 @@
 		],
 		"client": [
 			"lunetta.mysticaldimensions.MysticalDimensionsClient"
+		],
+		"fabric-datagen": [
+			"lunetta.mysticaldimensions.datagen.MysticalDimensionsDataGenerator"
 		]
 	},
 	"mixins": [
