@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 500.0,
+  "group": "sunorium",
+  "ingredient": "mystical-dimensions:sunorium_ore",
+  "result": {
+    "id": "mystical-dimensions:sunorium"
+  }
+}

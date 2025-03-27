@@ -1,0 +1,17 @@
+// 1.21.4	-999999999-01-01T00:00:00	Mystical Dimensions/Model Definitions
+5359f5a30cbaf9b28631ad908c53151e4913190b assets/mystical-dimensions/blockstates/jade_ore.json
+de50b173d9274edc752bfbce79ec3b694de5fafb assets/mystical-dimensions/blockstates/sunorium_ore.json
+c4c1411b8ea7c40a2cb0db4233a10b54b416f0e8 assets/mystical-dimensions/items/corraled_crystantite_ring.json
+f801c7aefa994c359313b4437303e0963df14095 assets/mystical-dimensions/items/crystantite_ring.json
+410a4782e4e2209e26e8c08149b4e8a144fd5c3d assets/mystical-dimensions/items/erosine.json
+2ef1a7bd1d72e99714e7cf3de79f5bd7bab6ce02 assets/mystical-dimensions/items/jade.json
+e6aa5bb68e34941dbb73ac35ce61250d683bc693 assets/mystical-dimensions/items/jade_ore.json
+1ffa5ac56ce86ac4b392e0c6bd1a5ceca6d2e253 assets/mystical-dimensions/items/sunorium.json
+15ed5a04172527b890435e869b594e317ef74174 assets/mystical-dimensions/items/sunorium_ore.json
+1d6cec598513ca3bbc1f1c5892be5839e81f83cd assets/mystical-dimensions/models/block/jade_ore.json
+2c6dcf0f6d0292e469664c60e5e40d179c15cbd6 assets/mystical-dimensions/models/block/sunorium_ore.json
+794cd958e138e60eeb8a9c0c48a445aaff37065c assets/mystical-dimensions/models/item/corraled_crystantite_ring.json
+079f79cef6a29e10e82b3dfde65ce8b17b90cd8f assets/mystical-dimensions/models/item/crystantite_ring.json
+5f49cdfa459a19267856f3fdf664673cd725f3a7 assets/mystical-dimensions/models/item/erosine.json
+6c6b8e713792ef21c0bf0419e1311b23be6a2b0c assets/mystical-dimensions/models/item/jade.json
+327332c3575d9b6446f32800c97ffb79dea37687 assets/mystical-dimensions/models/item/sunorium.json
